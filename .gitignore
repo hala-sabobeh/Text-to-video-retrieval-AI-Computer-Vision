@@ -1,0 +1,75 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Model checkpoints (LARGE FILES!)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+*.keras
+
+# Dataset (TOO LARGE FOR GITHUB!)
+data/
+videos/
+frames/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Text files with data
+annotations.txt
+*.csv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and outputs
+*.log
+logs/
+wandb/
+runs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
